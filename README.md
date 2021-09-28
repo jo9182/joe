@@ -2,6 +2,8 @@
 
 Accessing Corrosion from directly in the Chrome Omnibox
 
+![Gif Demo](demo.gif)
+
 ## Features
 
 - Proxy URLs and search queries into Corrosion, simply by typing "j" + SPACE in the omnibox/url bar. 
