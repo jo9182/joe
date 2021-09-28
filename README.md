@@ -18,7 +18,7 @@ Accessing Corrosion from directly in the Chrome Omnibox
 2. Double click it, to see its file:// URL and to edit settings
 
 
-3. Edit search engines in chrome settings [chrome://settings/searchEngines](chrome://settings/searchEngines)
+3. Edit search engines in chrome settings [http://chrome://settings/searchEngines](chrome://settings/searchEngines)
 4. `Add` a new search engine
 5. For `Search Engine`, type `Joe`
 6. For `keyword`, type `j` or your choice of activation keyword
