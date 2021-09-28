@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>joe</title>
+    <style>
+        #options, #fake, #help {
+            display: none;
+        }
+    </style>
+    <link rel="shortcut icon" href="data:image/x-icon;base64,{{icon}}" type="image/x-icon">
+</head>
+<body>
+    <div id="options">
+        <button id="add">Add Joe to Chrome!</button><br>
+        <div id="help">
+            <ol>
+                <li>Copy this URL <a id="url" href=""></a></li>
+                <li>Edit search engines in chrome settings <a href="chrome://settings/searchEngines">chrome://settings/searchEngines</a></li>
+                <li>Click the "Add" button</li>
+                <li>For "Search Engine", type "Joe"<br>For "keyword", type "j" or your choice of activation keyword.<br>For "URL with %s in place of query",
+                enter the copied URL<br>For "Suggestions URL with %s in place of query", enter this url <a href="https://duckduckgo.com/ac/?q=%s&amp;type=list">https://duckduckgo.com/ac/?q=%s&amp;type=list</a></li>
+                <li>All done! You can now use Joe by typing "j" (or your keyword) into the Omnibox, pressing space, and typing in a query.</li>
+            </ol>
+        </div><br><br><br>
+        <textarea id="blacklist" placeholder="Return/newline separated list of domains to not proxy" cols="30" rows="10"></textarea><br><br>
+        <button id="blacklist-btn">Set domain blacklist</button><br><br><br>
+
+        <input id="corrosion" placeholder="Corrosion instance (https://corrosion.test/service/)" type="text"><br><br>
+        <button id="corrosion-btn">Set Corrosion instance</button><br><br><br>
+
+        <select id="search">
+            <option id="google" value="google">Google</option>
+            <option id="ddg" value="ddg">Duckduckgo</option>
+            <option id="bing" value="bing">Bing</option>
+            <option id="startpage" value="startpage">Startpage</option>
+            <option id="searx" value="searx">Searx</option>
+            <option id="metager" value="metager">Metager</option>
+            <option id="brave" value="brave">Brave</option>
+            <option id="custom" value="custom">Custom</option>
+        </select><br><br>
+        <button id="search-btn">Set search engine</button><br><br><br>
+
+        <select id="encoding">
+            <option id="xor" value="xor">XOR</option>
+            <option id="b64" value="b64">Base64</option>
+            <option id="plain" value="plain">Plain</option>
+        </select><br><br>
+        <button id="encoding-btn">Set Corrosion URL encoding</button><br><br><br>
+    </div>
+    <div id="loading"></div>
+
+    <script>
+        {{js}}
+    </script>
+</body>
+</html>
