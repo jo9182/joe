@@ -14,16 +14,16 @@ Accessing Corrosion from directly in the Chrome Omnibox
 
 ## Installation
 
-- Download joe.html and place it somewhere on your Chromebook's filesystem
-- Double click it, to see its file:// URL and to edit settings
+1. Download joe.html and place it somewhere on your Chromebook's filesystem
+2. Double click it, to see its file:// URL and to edit settings
 
 
-- Edit search engines in chrome settings [chrome://settings/searchEngines](chrome://settings/searchEngines)
-- `Add` a new search engine
-- For `Search Engine", type `Joe`
-- For `keyword`, type `j` or your choice of activation keyword
-- For `URL with %s in place of query`, enter the file:// URL for joe.html, appended with `#%s`
-- For `Suggestions URL with %s in place of query`, enter the Duckduckgo suggestions URL [https://duckduckgo.com/ac/?q=%s&amp;type=list](https://duckduckgo.com/ac/?q=%s&amp;type=list). If this is blocked, enter one from a different search engine or leave blank.</a>
+3. Edit search engines in chrome settings [chrome://settings/searchEngines](chrome://settings/searchEngines)
+4. `Add` a new search engine
+5. For `Search Engine", type `Joe`
+6. For `keyword`, type `j` or your choice of activation keyword
+7. For `URL with %s in place of query`, enter the file:// URL for joe.html, appended with `#%s`
+8. For `Suggestions URL with %s in place of query`, enter the Duckduckgo suggestions URL [https://duckduckgo.com/ac/?q=%s&amp;type=list](https://duckduckgo.com/ac/?q=%s&amp;type=list). If this is blocked, enter one from a different search engine or leave blank.</a>
 
 ## Compiling
 
