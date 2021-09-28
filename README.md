@@ -20,7 +20,7 @@ Accessing Corrosion from directly in the Chrome Omnibox
 
 3. Edit search engines in chrome settings [chrome://settings/searchEngines](chrome://settings/searchEngines)
 4. `Add` a new search engine
-5. For `Search Engine", type `Joe`
+5. For `Search Engine`, type `Joe`
 6. For `keyword`, type `j` or your choice of activation keyword
 7. For `URL with %s in place of query`, enter the file:// URL for joe.html, appended with `#%s`
 8. For `Suggestions URL with %s in place of query`, enter the Duckduckgo suggestions URL [https://duckduckgo.com/ac/?q=%s&amp;type=list](https://duckduckgo.com/ac/?q=%s&amp;type=list). If this is blocked, enter one from a different search engine or leave blank.</a>
