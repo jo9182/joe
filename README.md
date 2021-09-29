@@ -16,7 +16,7 @@ Accessing Corrosion from directly in the Chrome Omnibox
 
 ## Installation
 
-1. Download joe.html and place it somewhere on your Chromebook's filesystem
+1. Download [joe.html](https://github.com/elitwo/joe/releases/latest/download/joe.html) and place it somewhere on your Chromebook's filesystem
 2. Double click it, to see its file:// URL and to edit settings
 
 
