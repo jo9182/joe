@@ -27,6 +27,8 @@ Accessing Corrosion from directly in the Chrome Omnibox
 7. For `URL with %s in place of query`, enter the file:// URL for joe.html, appended with `#%s`
 8. For `Suggestions URL with %s in place of query`, enter the Duckduckgo suggestions URL [https://duckduckgo.com/ac/?q=%s&amp;type=list](https://duckduckgo.com/ac/?q=%s&amp;type=list). If this is blocked, enter one from a different search engine or leave blank.</a>
 
+9. Before you can use Joe, you will need to ensure the Corrosion instance is available. Likely, you will need to use the proxy site once manually. For the default HolyUnblocker, navigate to [https://holyubofficial.net/?q](https://holyubofficial.net/?q) and go to any URL. 
+
 ## Compiling
 
 ```sh
